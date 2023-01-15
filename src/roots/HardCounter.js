@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 
 const HardCounter = () => {
-  const [state, setstate] = useState([
-    { id: 1, num: 1 },
-    { id: 2, num: 5 },
-  ]);
+  const [state, setstate] = useState([{ id: 1, num: 1 }]);
 
   const PlusNum = (id) => {
     setstate((data) => {
