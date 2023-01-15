@@ -1,9 +1,10 @@
 import React from "react";
+import HardCounter from "./roots/HardCounter";
 
 const App = () => {
   return (
     <div className="container">
-      <h1>salom</h1>
+      <HardCounter />
     </div>
   );
 };

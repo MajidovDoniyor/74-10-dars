@@ -3,3 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+table tr th,
+table tr td {
+  text-align: center;
+}
